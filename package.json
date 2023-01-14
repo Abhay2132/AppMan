@@ -1,0 +1,21 @@
+{
+  "name": "appman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhay2132/AppMan.git"
+  },
+  "engine" : ">15",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhay2132/AppMan/issues"
+  },
+  "homepage": "https://github.com/Abhay2132/AppMan#readme"
+}
