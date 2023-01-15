@@ -4,7 +4,7 @@ const {resolve : r} = require("path");
 
 const repo = "https://github.com/Abhay2132/apps" || process.env.repo
 const dir = repo.split("/")[repo.split("/").length -1]
-const clone = `rm ${dir} -rfv ; rm src -rf; git clone ${repo}`
+const clone = `rm ${dir} node_modules -rfv ; rm src -rf; git clone ${repo}`
 const start = "./src/server"  || process.env.start
 
 const nm = r(dir, "node_modules");
