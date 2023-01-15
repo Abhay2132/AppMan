@@ -10,12 +10,10 @@ const start = "./src/server"  || process.env.start
 const nm = r(dir, "node_modules");
 const src = r(dir, "src");
 
-console.log("Cloning !")
 console.time("cloned in ");
 execSync(clone);
 console.timeEnd("cloned in ");
 
-console.log("Moving !")
 console.time("moved in ");
 if(e(src)) mv(src, r("src"));
 if (e(nm)) mv(nm, r("node_modules"));
