@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/Abhay2132/AppMan/issues"
   },
-  "homepage": "https://github.com/Abhay2132/AppMan#readme"
+  "homepage": "https://github.com/Abhay2132/AppMan#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.18.2"
+  }
 }
