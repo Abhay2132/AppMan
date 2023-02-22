@@ -7,13 +7,14 @@
     "node": ">15"
   },
   "scripts": {
-    "start" : "node ."
+    "start": "node .",
+    "build": "git clone https://github.com/abhay2132/appz; cd appz;"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Abhay2132/AppMan.git"
   },
-  "engine" : ">15",
+  "engine": ">15",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -23,6 +24,7 @@
   "homepage": "https://github.com/Abhay2132/AppMan#readme",
   "dependencies": {
     "colors": "^1.4.0",
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "mime": "^3.0.0",
     "node-fetch": "^3.3.0",
